@@ -15,6 +15,8 @@ import org.hibernate.annotations.GenericGenerator;
 
 public class LoadgDTO implements Serializable {
 
+	
+	//Generic Generator
 	@Id
 	@GenericGenerator(name="id",strategy="increment")
 	@GeneratedValue(generator="id")
